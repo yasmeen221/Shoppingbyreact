@@ -1,0 +1,42 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item{
+    width: 40rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.cart-item img{
+    margin-left: 2rem;
+}
+.description{
+    font-size: 1rem;
+   
+}
+
+
+.counHandler input{
+    width: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.checkout button{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.8rem;
+    cursor: pointer;
+}
+
